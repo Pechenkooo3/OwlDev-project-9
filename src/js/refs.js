@@ -1,0 +1,25 @@
+export const refs = {
+  modalFilmImg: document.querySelector('.modal__img'),
+  modalFilmId: document.querySelector('.modal-film__id'),
+  modalFilmTitle: document.querySelector('.modal-film__title'),
+  modalFilmVote: document.querySelector('.vote'),
+  modalFilmVotes: document.querySelector('.votes'),
+  modalFilmPopularity: document.querySelector('.popularity'),
+  modalFilmOrigTitle: document.querySelector('.orig-title'),
+  modalFilmGenre: document.querySelector('.genre'),
+  modalFilmDescription: document.querySelector('.about__text'),
+  modalTrailerWatch: document.querySelector('.modal__watch'),
+  modalFilmWatched: document.querySelector('.button-watched'),
+  modalFilmQueue: document.querySelector('.button-queue'),
+
+  searchForm: document.querySelector('.search-form'),
+  //pagination
+  gallery: document.querySelector('.card'),
+  paginationList: document.querySelector('.pagination-mid'),
+  pageList: document.querySelector('.pages'),
+  lastBtn: document.getElementById('last-page'),
+  prevBtn: document.getElementById('button-prev'),
+  nextBtn: document.getElementById('button-next'),
+  firstPage: document.querySelector('.first'),
+  lastPage: document.querySelector('.last'),
+};
